@@ -5,5 +5,4 @@ import numpy as np
 def hpr(start, end, dividend):
     return (end + dividend - start) / start
 
-def compound_return(hprs):
-    return np.prod(hprs + 1) - 1
+print(hpr(20, 22, 1))  # 0.15
